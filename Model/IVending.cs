@@ -5,7 +5,7 @@ namespace VendingMachine.Model
     public interface IVending
     {
         void Purchase();
-        List<Product> ShowAll();
+        void ShowAll();
         void InsertMoney();
         void EndTransaction();
     }

@@ -19,5 +19,6 @@ namespace VendingMachine.Model
         }
         public abstract string Use();
         
+        
     }
 }
